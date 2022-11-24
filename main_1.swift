@@ -2,7 +2,7 @@
 //  main.swift
 //  dz 3_2
 //
-//  Created by Nika Abdulakhatova on 24.11.2022.
+//  Created by Sofia Maksumova on 24.11.2022.
 //
 
 import Foundation
