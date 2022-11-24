@@ -9,7 +9,7 @@ func dateConverter(date: Int){
     switch date {
     case 1:
         print("jan")
-        print ("Месяц 1 - Январь. Зима. 7 января - старый Новый Год")
+        print ("Месяц 1 - Январь. Зима. 7 января -   Рождество Христово")
         break
     case 2:
         print("feb")
