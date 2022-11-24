@@ -2,52 +2,44 @@
 //  main.swift
 //  dz3
 //
-//  Created by Nika Abdulakhatova on 24.11.2022.
+//  Created by Sofia Maksumova on 24.11.2022.
 //
 
-//import Foundation
-// let month = "март"
-//switch month {
-//case "март":
-//    print("Месяц 3 - Март. Это весна. 8 Марта праздник")
-//case "апрель":
-//    print("")
-    
-//}
+
 
 func genderDetect(age: Int, city: String){
-    if(age >= 0 && age <= 18 && city == "Bishkek"){
-        print("student")
+    if(age >= 0 && age <= 17 && city == "Bishkek"){
+        print("child")
     }
-    else if(age >= 19 && age <= 30 && city == "Bishkek"){
-        print("Человек средего возраста")
+    else if(age >= 18 && age <= 30 && city == "Bishkek"){
+        print("adult")
     }
-    else if(age >= 31 && age < 70 && city == "Bishkek"){
-        print("песионер")
+    else if(age >= 55 && age < 70 && city == "Bishkek"){
+        print("пенсионер")
     }
 //    else{
 //        print("долгожитель")
 //    }
     
-    if(age >= 0 && age <= 18 && city == "tash"){
-        print("student")
+    if(age >= 0 && age <= 17 && city == "Tash"){
+        print("child")
     }
-    else if(age >= 19 && age <= 30 && city == "tash"){
-        print("Человек средего возраста")
+    else if(age >= 18 && age <= 50 && city == "Tashkent"){
+        print("adult")
     }
-    else if(age >= 31 && age < 70 && city == "tash"){
+    else if(age >= 55 && age < 70 && city == "Tashkent"){
         print("песионер")
     }
 //    else{
 //        print("долгожитель")
 //    }
-    if(age >= 0 && age <= 18 && city == "london"){
-        print("student")
+    if(age >= 0 && age <= 17 && city == "London"){
+        print("child")
     }
-    else if(age >= 19 && age <= 30 && city == "london"){
-        print("Человек средего возраста")
+    else if(age >= 18 && age <= 50 && city == "London"){
+        print("adult")
     }
-    else if(age >= 31 && age < 70 && city == "london"){
+    else if(age >= 55 && age < 70 && city == "London"){
         print("песионер")
     }
 //    else{
@@ -58,6 +50,6 @@ func genderDetect(age: Int, city: String){
 }
 
 
-genderDetect(age:18, city: "Bishkek")
-genderDetect(age:18, city: "tash")
-genderDetect(age:18, city: "london")
+genderDetect(age:17, city: "Bishkek")
+genderDetect(age:22, city: "Tashkent")
+genderDetect(age:57, city: "London")
