@@ -21,7 +21,7 @@ func genderDetect(age: Int, city: String){
  
     
     if(age >= 0 && age <= 17 && city == "Madrid"){
-        print("ребенок испанец"")
+        print("ребенок испанец")
     }
     else if(age >= 18 && age <= 50 && city == "Madrid"){
         print("Испанец среднего возраста")
@@ -32,7 +32,7 @@ func genderDetect(age: Int, city: String){
 
    
     if(age >= 0 && age <= 17 && city == "London"){
-        print("ребенок англичанин"")
+        print("ребенок англичанин")
     }
     else if(age >= 18 && age <= 50 && city == "London"){
         print("Англичанин среднего возраста")
