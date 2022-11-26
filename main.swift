@@ -1,7 +1,7 @@
 import Foundation
 
 let  words = ["tv", "tea", "apple", "table", "people", "journey", "mountain", "strengths", "conscience", "performance", "announcment", "objectivizing", "accidentalness", "methoxybenzenes", "ACCLIMATIZATIONS", "administratorship", "ABSENTMINDEDNESSES", "ABDOMINOHYSTEROTOMY","ABDOMINOHYSTERECTOMY"]
-var number = 0
+
 
 func countChars(w: String) -> Int{
     return w.count
